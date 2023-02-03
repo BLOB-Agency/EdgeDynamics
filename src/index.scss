@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Metropolis";
+  src: url("../public/fonts/metropolis/Metropolis-Regular.otf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("../public/fonts/metropolis/Metropolis-Bold.otf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("../public/fonts/metropolis/Metropolis-ExtraBold.otf")
+    format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("../public/fonts/metropolis/Metropolis-SemiBold.otf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("../public/fonts/metropolis/Metropolis-Black.otf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("../public/fonts/metropolis/Metropolis-RegularItalic.otf")
+    format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Azonix";
+  src: url("../public/fonts/azonix/Azonix.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #030303;
+  margin: 0;
+  font-family: "Metropolis", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  font-size: 14px;
+  color: white;
+}
+h1 {
+  font-weight: 800;
+  font-size: 20px;
+  @media only screen and (min-width: 768px) {
+    font-size: 30px;
+  }
+  strong {
+    color: #f0fd71;
+    font-size: 20px;
+    font-weight: 800;
+    @media only screen and (min-width: 768px) {
+      font-size: 30px;
+    }
+  }
+}
+
+h2 {
+  font-family: "Azonix", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  @media only screen and (min-width: 768px) {
+    font-size: 30px;
+  }
+}
+nav {
+  font-size: 14px;
+  @media only screen and (min-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-title {
+  color: #f0fd71;
+  font-size: 16px;
+  text-align: center;
+}
+p {
+  line-height: 25px;
+}
