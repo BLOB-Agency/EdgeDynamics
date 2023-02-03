@@ -7,7 +7,7 @@ const OurCompany = () => {
         <section className="container__ourCompany">
              <div className="container__ourCompany-title">
                 <span className="section-title">About us</span>
-                <h2>Our Company</h2>
+                <h2>OUR COMPANY</h2>
              </div>
              <div className="container__ourCompany-content">
                 <article className="box-company">
