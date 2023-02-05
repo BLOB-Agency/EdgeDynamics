@@ -2,6 +2,7 @@ import React from "react";
 import "./About.scss"
 import OurCompany from "../../Components/OurCompany";
 import OurVision from "../../Components/OurVision";
+import OurFounders from "../../Components/OurFounders";
 
 const About = () => {
 
@@ -10,6 +11,7 @@ const About = () => {
         <div id="about" className="container__about">
             <OurCompany />
             <OurVision />
+            <OurFounders />
         </div>
     )
 }
