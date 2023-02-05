@@ -51,7 +51,7 @@ const Header = () => {
             
             <nav>
                 <a href="#about">About</a>
-                <a href="#portfolio">Product & Services</a>
+                <a href="#product">Products & Services</a>
                 <a href="#roadmap">Roadmap</a>
                 <a href="#contact" ><button className="contact-btn">Join Us</button></a>
             </nav>
@@ -61,14 +61,14 @@ const Header = () => {
                 <nav>
                     <a href="#home" onClick={handleBtn}><span>Home</span><img src="/assets/chevron-right.svg" alt="Chevron Right" /></a>
                     <a href="#about" onClick={handleBtn}><span>About</span><img src="/assets/chevron-right.svg" alt="Chevron Right" /></a>
-                    <a href="#portfolio" onClick={handleBtn}><span>Portfolio</span><img src="/assets/chevron-right.svg" alt="Chevron Right" /></a>
+                    <a href="#products" onClick={handleBtn}><span>Products & Services</span><img src="/assets/chevron-right.svg" alt="Chevron Right" /></a>
                     <a href="#contact" onClick={handleBtn}><span>Join Us</span><img src="/assets/chevron-right.svg" alt="Chevron Right" /></a>
                 </nav>
                 <div className="container__navMenu-socials">
                     <a href="#">
                         <img src="/assets/twitter.svg" alt="Icon Twitter" />
                     </a>
-                    <a href="#">
+                    <a href="mailto:info@edgedynamics.eu">
                         <img src="/assets/paper-plane-solid.svg" alt="Icon Email" />
                     </a>
                     <a href="#">
