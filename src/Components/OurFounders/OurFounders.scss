@@ -16,9 +16,9 @@
   &-content {
     display: flex;
     flex-flow: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     row-gap: 40px;
-    column-gap: 50px;
+    column-gap: 10px;
     .card__founder {
       width: 30%;
       min-width: 250px;

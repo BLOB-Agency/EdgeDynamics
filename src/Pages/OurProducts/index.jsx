@@ -8,8 +8,8 @@ const OurProducts = () => {
 
         <div className="container__ourProducts" id="products">
             <div className="container__ourProducts-title">
-                <span className="section-title">Products & Services</span>
-                <h2>WEBSITE IN PROGRESS</h2>
+                <span>Products & Services</span>
+                <h2>Our Products</h2>
             </div>
             <Product />
         </div>
